@@ -70,7 +70,6 @@ nav {
   margin-top: 5px;
 }
 
-
 .menu-element{
   margin-top: 20px;
 }
@@ -136,7 +135,6 @@ h4 {
 .space {
   float: left;
   width: 25%;
-  height: ;
 }
 
 .nyt-media-80{
@@ -161,7 +159,6 @@ h4 {
   font-size: 0.8125rem;
 }
 
-
 .main_content {
   background-color: chocolate;
   clear: both;
@@ -169,6 +166,9 @@ h4 {
   margin: 0 auto;
 }
 
+#author-date{
+  float: left;
+}
 #author {
   font-weight: 100;
   font-size: 20px;
@@ -180,7 +180,7 @@ h4 {
   background-color: cornflowerblue;
   float: right;
   width: 20%;
-  margin-top: -45px;
+  /* margin-top: -45px; */
 }
 
 .fa-facebook, .fa-twitter{
@@ -194,7 +194,6 @@ h4 {
 }
 
 .facebook {
-  background-color: chocolate;
   height: 67px;
   width: 20px;
   float: left;
@@ -207,15 +206,60 @@ h4 {
   width: 20px;
   float: left;
   padding-right: 20px;
-
 }
 
 .email {
+  background-color: rgb(26, 37, 196);
+  height: 67px;
+  width: 20px;
+  float: left;
+  padding-right: 20px;
+}
 
-    background-color: rgb(26, 37, 196);
-    height: 67px;
-    width: 20px;
-    float: left;
-    padding-right: 20px;
+main {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  padding: 25px 0;
+  clear: both;
+}
+p {
+  padding: 10px 0;
+}
+strong{
+  font-weight: 700;
+}
 
-  }
+#create-account-log-in{
+  text-align: center;
+}
+
+.line-separator{
+  border-bottom: 1px solid rgb(204, 204, 204);
+  width: 72px;
+  margin: 0 auto 0;
+}
+
+#table{
+  width: 100%;
+}
+
+#the-universe{
+  top: 24.8264%;
+  left: 0.0436%;
+  width: 228px;
+}
+#not-enough-time{
+  top: 24.8264%;
+  left: 25.5619%;
+  width: 228px;
+}
+#distant-coffee{
+  top: 24.8264%;
+  left: 51.0800%;
+  width: 228px;
+}
+#coffee-everywhere{
+  top: 24.8264%;
+  left: 76.5982%;
+  width: 228px;
+}
