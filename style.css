@@ -160,7 +160,6 @@ h4 {
 }
 
 .main_content {
-  background-color: chocolate;
   clear: both;
   width: 45%;
   margin: 0 auto;
@@ -177,10 +176,8 @@ h4 {
 }
 
 #social-icons {
-  background-color: cornflowerblue;
   float: right;
   width: 20%;
-  /* margin-top: -45px; */
 }
 
 .fa-facebook, .fa-twitter{
@@ -201,7 +198,6 @@ h4 {
 }
 
 .twitter {
-  background-color: rgb(68, 3, 14);
   height: 67px;
   width: 20px;
   float: left;
@@ -209,7 +205,6 @@ h4 {
 }
 
 .email {
-  background-color: rgb(26, 37, 196);
   height: 67px;
   width: 20px;
   float: left;
@@ -244,22 +239,39 @@ strong{
 }
 
 #the-universe{
-  top: 24.8264%;
-  left: 0.0436%;
-  width: 228px;
+  left: 2.0436%;
+  bottom: 550px;
+  width: 250px;
+  float: left;
+  position: relative;
 }
 #not-enough-time{
-  top: 24.8264%;
-  left: 25.5619%;
-  width: 228px;
+  left: 7%;
+  bottom: 550px;
+  width: 250px;
+  float: left;
+  position: relative;
 }
 #distant-coffee{
-  top: 24.8264%;
-  left: 51.0800%;
-  width: 228px;
+  left: 11%;
+  bottom: 550px;
+  width: 250px;
+  float: left;
+  position: relative;
 }
 #coffee-everywhere{
-  top: 24.8264%;
-  left: 76.5982%;
-  width: 228px;
+  left: 15%;
+  bottom: 550px;
+  width: 250px;
+  float: left;
+  position: relative;
+}
+
+#the-universe, #coffee-everywhere, #distant-coffee, #not-enough-time {
+  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+  margin-right: 10px;
 }
