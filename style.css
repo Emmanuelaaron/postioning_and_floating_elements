@@ -1,6 +1,60 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'NYTFont';
+  src: url("fonts/Cheltenham.woff2"), url("fonts/Cheltenham.woff");
+}
+
 body{
   background-color: #F7F7F7;
-  overflow: hidden;
+  font-size: 12px;
 }
 
 a {
@@ -77,20 +131,43 @@ h4 {
 }
 
 #article_title {
-  /* font-size: 25px; */
-  /* max-width: 600px; */
-  /* font-style: italic; */
+  background-color: chocolate;
+  max-width: 60%;
   margin: 0 auto;
-}
-
-article h1 {
+  font-family: 'NYTFont';
   font-size: 45px;
   font-style: italic;
-  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  line-height: 60px;
+}
+
+.space {
+  float: left;
+  width: 25%;
+  height: ;
+}
+
+.nyt-media-80{
+  width: 80%;
   margin: 0 auto;
 }
 
-.nyt-image img {
-  width: 1000px;
-  /* height: 1000px; */
+#main-image-article{
+  max-width: 100%;
+  margin: 0 auto;
+}
+.image-legend{
+  max-width: 720px;
+  float: left;
+}
+
+.image-description{
+  font-size: 0.9375rem;
+}
+
+.photo-author{
+  font-size: 0.8125rem;
+}
+
+.social-date-author{
+  clear: both;
 }
