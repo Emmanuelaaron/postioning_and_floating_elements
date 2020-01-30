@@ -1,0 +1,34 @@
+a {
+  text-decoration: none;
+  color: rgb(19, 18, 18);
+}
+
+.menu_icon {
+  background-color: blueviolet;
+  width: 40px;
+  height: 150px;
+  float: left;
+}
+
+.search_icon {
+  background-color: burlywood;
+  width: 40px;
+  height: 150px;
+  float: left;
+}
+
+.space_cosmos {
+  background-color: chocolate;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-top: auto;
+}
+
+.left_nav {
+  background-color: rgb(55, 55, 173);
+}
+
+h4 {
+  margin-top: 0px;
+}
