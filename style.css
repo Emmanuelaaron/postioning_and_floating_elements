@@ -1,32 +1,62 @@
+body{
+  background-color: #F7F7F7;
+}
+
 a {
   text-decoration: none;
   color: rgb(19, 18, 18);
 }
+header{
+  background-color: white;
+  overflow: hidden;
+}
+
+nav {
+  height: 50px;
+  /* background-color: white; */
+  /* text-align: center; */
+  /* overflow: hidden; */
+}
+
+.left_nav {
+  /* background-color: rgb(55, 55, 173); */
+}
+
+.menu-element{
+  margin-top: 20px;
+}
 
 .menu_icon {
-  background-color: blueviolet;
   width: 40px;
-  height: 150px;
   float: left;
 }
 
 .search_icon {
-  background-color: burlywood;
   width: 40px;
-  height: 150px;
+  float: left;
+}
+
+.middle_nav {
+  margin: 0 auto;
+  width: 200px;
+}
+
+#new-york-times-logo {
+  height: 35px;
   float: left;
 }
 
 .space_cosmos {
-  background-color: chocolate;
+  /* background-color: chocolate; */
   width: 200px;
-  height: 200px;
+  /* height: 200px; */
   float: left;
   margin-top: auto;
 }
 
-.left_nav {
-  background-color: rgb(55, 55, 173);
+.right_nav{
+  float: right;
+  margin-top: 0;
 }
 
 h4 {
