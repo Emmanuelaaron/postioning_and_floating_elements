@@ -1,5 +1,6 @@
 body{
   background-color: #F7F7F7;
+  overflow: hidden;
 }
 
 a {
@@ -9,13 +10,11 @@ a {
 header{
   background-color: white;
   overflow: hidden;
+  /* height: 40px; */
 }
 
 nav {
-  height: 50px;
-  /* background-color: white; */
-  /* text-align: center; */
-  /* overflow: hidden; */
+  margin-top: 5px;
 }
 
 .left_nav {
@@ -61,4 +60,37 @@ nav {
 
 h4 {
   margin-top: 0px;
+}
+
+.middle_nav img {
+  margin-top: -6px;
+}
+
+#subscribe-now, #log-in {
+  background-color: #567b95;
+  border: 1px solid #326891;
+  color: #fff;
+  font-size: 11px;
+  height: 35px;
+  font-weight: 700;
+  border-radius: 4px;
+}
+
+#article_title {
+  /* font-size: 25px; */
+  /* max-width: 600px; */
+  /* font-style: italic; */
+  margin: 0 auto;
+}
+
+article h1 {
+  font-size: 45px;
+  font-style: italic;
+  font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
+  margin: 0 auto;
+}
+
+.nyt-image img {
+  width: 1000px;
+  /* height: 1000px; */
 }
