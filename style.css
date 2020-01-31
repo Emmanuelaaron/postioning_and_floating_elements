@@ -1,9 +1,10 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+html, 
+body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -105,6 +106,12 @@ nav {
   margin-top: 0;
 }
 
+article{
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  padding: 25px 0;
+  clear: both;
+}
 h4 {
   margin-top: 0px;
 }
@@ -153,8 +160,8 @@ h4 {
 
 .image-description{
   font-size: 0.9375rem;
+  line-height: 10px;
 }
-
 .photo-author{
   font-size: 0.8125rem;
 }
@@ -211,12 +218,12 @@ h4 {
   padding-right: 20px;
 }
 
-main {
+/* main {
   font-size: 1.25rem;
   line-height: 1.875rem;
   padding: 25px 0;
   clear: both;
-}
+} */
 p {
   padding: 10px 0;
 }
