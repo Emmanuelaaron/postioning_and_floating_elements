@@ -314,6 +314,56 @@ iframe {
   color: rgb(102, 102, 102);
 }
 .social-button{
+  position: relative;
+  bottom: 4px;
+  top: -5px;
+  left: 3px;
+}
+
+.social-button-facebook {
   width: 7px;
   height: 15px;
+}
+
+li {
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: auto;
+}
+
+.bottom-left {
+  float: left;
+  width: 50%;
+}
+
+.bottom-right {
+  float: right;
+}
+
+ul li {
+  float: left;
+}
+
+.bottom-left button {
+  background-color: rgb(86, 123, 149);
+  color: white;
+  display: block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-style: solid;
+  border-color: rgb(50, 104, 145);
+  border-radius: 3px;
+  height: 35px;
+  width: 100%;
+
+}
+
+#bottom-of-article {
+  margin-top: 30px;
 }
