@@ -297,3 +297,23 @@ iframe {
   width: 100%;
   height: 420px;
 }
+#video-legend{
+  font-size: 0.9rem;
+}
+#video-legend-author{
+  font-size: 0.8rem;
+  color: #888;
+}
+#article-legend {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+}
+#article-legend a{
+  color: rgb(102, 102, 102);
+}
+.social-button{
+  width: 7px;
+  height: 15px;
+}
