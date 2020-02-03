@@ -365,20 +365,24 @@ h3 {
 .footer-signup {
   width: 80%;
   margin: 0 auto;
+  position: relative;
+  bottom: 280px;
+}
+.footer-signup hr{
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
 }
 
 .footer-signup-right {
   float: right;
   width: 50%;
+  position: relative;
+  bottom: 100px;
 }
 
 .footer-signup-left {
-  background-color: chocolate;
   width: 50%;
-}
-
-.footer-signup-right {
-  /* background-color: cornflowerblue; */
 }
 
 .footer-signup-left p {
@@ -394,8 +398,6 @@ input[type="email"] {
   height: 30px;
   border-radius: 4px 0px 0px 4px;
   border: 1px solid rgb(226, 226, 226);
-
-
 }
 input[type="submit"] {
   float: right;
@@ -407,7 +409,32 @@ input[type="submit"] {
   border-style: none;
   position: relative;
   right: 18px;
+}
 
-  
+#checkbox {
+  clear: both;
+}
 
+#checkbox-text{
+  font-size: 12px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: rgb(153, 153, 153);
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.footer-signup-right a{
+  color: rgb(50, 104, 145);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  padding: 0px 5px;
+}
+.footer-signup-right a:hover{
+  text-decoration: underline;
+}
+#related-articles{
+  width: 80%;
+  margin: 0 auto;
 }
