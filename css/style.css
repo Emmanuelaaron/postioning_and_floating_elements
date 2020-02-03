@@ -353,3 +353,61 @@ ul li {
   width: 40%;
 
 }
+
+h3 {
+  color: rgb(0, 0, 0);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.footer-signup {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer-signup-right {
+  float: right;
+  width: 50%;
+}
+
+.footer-signup-left {
+  background-color: chocolate;
+  width: 50%;
+}
+
+.footer-signup-right {
+  /* background-color: cornflowerblue; */
+}
+
+.footer-signup-left p {
+  color: rgb(102, 102, 102);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+input[type="email"] {
+  width: 70%;
+  float: left;
+  height: 30px;
+  border-radius: 4px 0px 0px 4px;
+  border: 1px solid rgb(226, 226, 226);
+
+
+}
+input[type="submit"] {
+  float: right;
+  width: 29.3%;
+  height: 35px;
+  border-radius: 0px 4px 4px 0px;
+  background-color: rgb(50, 104, 145);
+  color: rgb(255, 255, 255);
+  border-style: none;
+  position: relative;
+  right: 18px;
+
+  
+
+}
