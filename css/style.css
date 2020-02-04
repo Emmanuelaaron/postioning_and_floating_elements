@@ -489,7 +489,7 @@ input[type="submit"] {
 }
 
 #most-popular h5 {
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(219, 218, 218);
 }
 
 #more-in-space-top div h5 {
@@ -498,20 +498,25 @@ input[type="submit"] {
 
 #most-popular {
   float: right; 
-  width: 30vw;
-  bottom: 27.6vw;
+  width: 20vw;
   position: relative;
+  bottom: 37.2vw;
   border-top: 1px solid black;
   padding-top: 1vw;
+  font-style: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 16px;
+  margin-right: 10vw;
 }
 
-#border-line {
-  width: 70%;
-  height: 1px;
-  background-color: black;
-  margin-bottom: 30px;
+#most-popular h4 {
+  padding-bottom: 20px;
+
 }
 
+#most-popular h5 {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 #more-in-space-top h4 {
   font-size: 20px;
   margin-bottom: 5px;
