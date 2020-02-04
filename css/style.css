@@ -3,8 +3,8 @@
   src: url("fonts/Cheltenham.woff2"), url("fonts/Cheltenham.woff");
 }
 
-body{
-  background-color: #F7F7F7;
+body {
+  background-color: #f7f7f7;
   font-size: 12px;
 }
 
@@ -12,7 +12,8 @@ a {
   text-decoration: none;
   color: rgb(19, 18, 18);
 }
-header{
+
+header {
   background-color: white;
   overflow: hidden;
 }
@@ -21,7 +22,7 @@ nav {
   margin-top: 5px;
 }
 
-.menu-element{
+.menu-element {
   margin-top: 20px;
 }
 
@@ -51,26 +52,28 @@ nav {
   margin-top: auto;
 }
 
-.right_nav{
+.right_nav {
   float: right;
   margin-top: 0;
 }
 
-article{
+article {
   font-size: 1.25rem;
   line-height: 1.875rem;
   padding: 25px 0;
   clear: both;
 }
+
 h4 {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .middle_nav img {
   margin-top: -6px;
 }
 
-#subscribe-now, #log-in {
+#subscribe-now,
+#log-in {
   background-color: #567b95;
   border: 1px solid #326891;
   color: #fff;
@@ -83,7 +86,7 @@ h4 {
 #article_title {
   max-width: 60%;
   margin: 0 auto;
-  font-family: 'NYTFont';
+  font-family: 'NYTFont', arial, helvetica, sans-serif;
   font-size: 45px;
   font-style: italic;
   line-height: 60px;
@@ -94,25 +97,27 @@ h4 {
   width: 25%;
 }
 
-.nyt-media-80{
+.nyt-media-80 {
   width: 80%;
   margin: 0 auto;
 }
 
-#main-image-article{
+#main-image-article {
   max-width: 100%;
   margin: 0 auto;
 }
-.image-legend{
+
+.image-legend {
   max-width: 720px;
   float: left;
 }
 
-.image-description{
+.image-description {
   font-size: 0.9375rem;
   line-height: 10px;
 }
-.photo-author{
+
+.photo-author {
   font-size: 0.8125rem;
 }
 
@@ -122,9 +127,10 @@ h4 {
   margin: 0 auto;
 }
 
-#author-date{
+#author-date {
   float: left;
 }
+
 #author {
   font-weight: 100;
   font-size: 20px;
@@ -137,7 +143,8 @@ h4 {
   width: 20%;
 }
 
-.fa-facebook, .fa-twitter{
+.fa-facebook,
+.fa-twitter {
   background: #ccc;
   color: rgb(22, 21, 21);
   width: 30px;
@@ -172,34 +179,42 @@ p {
   padding: 10px 0;
   clear: both;
 }
-strong{
+
+strong {
   font-weight: 700;
 }
 
-#create-account-log-in{
+#create-account-log-in {
   text-align: center;
 }
 
-.line-separator{
+.line-separator {
   border-bottom: 1px solid rgb(204, 204, 204);
   width: 72px;
   margin: 0 auto 0;
 }
 
-#table{
+#table {
   width: 100%;
 }
 
-#the-universe, #still-not-enough{
+#the-universe,
+#still-not-enough {
   left: 2.0436%;
 }
-#not-enough-time, #inflation{
+
+#not-enough-time,
+#inflation {
   left: 7%;
 }
-#distant-coffee, #fluctuation{
+
+#distant-coffee,
+#fluctuation {
   left: 11%;
 }
-#coffee-everywhere, #expansion {
+
+#coffee-everywhere,
+#expansion {
   left: 15%;
 }
 
@@ -207,13 +222,12 @@ strong{
   width: 250px;
   float: left;
   position: relative;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
-  color: #000000;
+  color: #000;
   margin-right: 10px;
-
 }
 
 .bottoms {
@@ -225,17 +239,17 @@ strong{
 }
 
 #story-footer {
-  background: #000000;
+  background: #000;
   margin: 0 0 13px;
 }
 
 #larry {
   position: relative;
   bottom: 320px;
-  font-size: .875rem;
+  font-size: 0.875rem;
   font-weight: 500;
   font-style: normal;
-  font-family: nyt-franklin,arial,helvetica,sans-serif;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
   left: 2%;
 }
 
@@ -243,27 +257,54 @@ strong{
   position: relative;
   bottom: 300px;
 }
+
 iframe {
   width: 100%;
   height: 420px;
 }
-#video-legend{
+
+#video-legend {
   font-size: 0.9rem;
 }
-#video-legend-author{
+
+#video-legend-author {
   font-size: 0.8rem;
   color: #888;
 }
+
+.footer-signup-right a {
+  color: rgb(50, 104, 145);
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  padding: 0 5px;
+}
+
+.footer-signup-right a:hover {
+  text-decoration: underline;
+}
+
+#related-articles {
+  width: 80%;
+  margin: 10px auto;
+  position: relative;
+  bottom: 300px;
+  clear: both;
+}
+
 #article-legend {
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
   color: rgb(102, 102, 102);
 }
-#article-legend a{
+
+#article-legend a {
   color: rgb(102, 102, 102);
 }
-.social-button{
+
+.social-button {
   position: relative;
   bottom: 4px;
   top: -5px;
@@ -311,17 +352,17 @@ ul li {
   border-radius: 3px;
   height: 35px;
   width: 100%;
-
 }
 
 #bottom-of-article {
   margin-top: 30px;
 }
 
-#sign-up{
+#sign-up {
   max-width: 80%;
   margin: 0 auto;
 }
+
 #sign-up-text {
   float: left;
 }
@@ -329,12 +370,11 @@ ul li {
 #sign-up-form {
   float: right;
 }
-#input-email {
-  float: left; 
-  width: 50%;
 
-  color:rgb(51, 51, 51);
-  border: 0px none;
+#input-email {
+  float: left;
+  color: rgb(51, 51, 51);
+  border: 0 none;
   border-radius: 3px;
   box-shadow: none;
   box-sizing: border-box;
@@ -343,15 +383,14 @@ ul li {
   font-weight: 400;
   height: 30px;
   line-height: 15px;
-  padding: 0px;
+  padding: 0;
   vertical-align: middle;
   width: 100%;
-  
 }
+
 #sign-up-button {
   float: right;
   width: 40%;
-
 }
 
 h3 {
@@ -368,7 +407,8 @@ h3 {
   position: relative;
   bottom: 280px;
 }
-.footer-signup hr{
+
+.footer-signup hr {
   width: 100%;
   float: left;
   margin-bottom: 30px;
@@ -396,14 +436,15 @@ input[type="email"] {
   width: 70%;
   float: left;
   height: 30px;
-  border-radius: 4px 0px 0px 4px;
+  border-radius: 4px 0 0 4px;
   border: 1px solid rgb(226, 226, 226);
 }
+
 input[type="submit"] {
   float: right;
   width: 29.3%;
   height: 35px;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
   background-color: rgb(50, 104, 145);
   color: rgb(255, 255, 255);
   border-style: none;
@@ -415,7 +456,7 @@ input[type="submit"] {
   clear: both;
 }
 
-#checkbox-text{
+#checkbox-text {
   font-size: 12px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   color: rgb(153, 153, 153);
@@ -423,69 +464,49 @@ input[type="submit"] {
   font-weight: 500;
   line-height: 16px;
 }
-.footer-signup-right a{
-  color: rgb(50, 104, 145);
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 13px;
-  padding: 0px 5px;
-}
-.footer-signup-right a:hover{
-  text-decoration: underline;
-}
-#related-articles{
-  width: 80%;
-  margin: 0 auto;
-}
 
 #related-articles img {
   width: 100%;
   padding-bottom: 20px;
 }
 
-#more-in-space-top div {
-  float: left;
+#more-in-space-bottom {
+  clear: both;
+  width: 70%;
 }
-.image-slot{
-  width: 25%;
+
+#more-in-space-top {
+  padding-top: 20px;
+  float: left;
+  width: 70%;
+  border-top: 1px solid black;
+}
+
+.image-slot {
+  width: 31%;
   float: left;
   padding: 5px;
 }
-.space-top {
-  position: relative;
-  bottom: 15px;
+
+#most-popular h5 {
+  border-top: 1px solid black;
 }
 
 #more-in-space-top div h5 {
   padding-right: 20px;
-  
-}
-
-.more-in-space-bottom div {
-  float: left;
 }
 
 #most-popular {
-  clear: both;
-}
-
-.bottoms-image-slot {
+  float: right; 
+  width: 30vw;
+  bottom: 27.6vw;
   position: relative;
-  bottom: 267px;
-}
-
-#most-popular {
-  position: relative;
-  bottom: 848px;
-  left: 1000px;
   border-top: 1px solid black;
-  padding-top:  42px;
-
+  padding-top: 1vw;
 }
 
 #border-line {
-  width: 77%;
+  width: 70%;
   height: 1px;
   background-color: black;
   margin-bottom: 30px;
@@ -499,8 +520,4 @@ input[type="submit"] {
 
 #more-in-space-top h4:hover {
   text-decoration: underline;
-}
-
-#most-popular h5 {
-  border-top: 1px solid black;
 }
