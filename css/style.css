@@ -438,3 +438,69 @@ input[type="submit"] {
   width: 80%;
   margin: 0 auto;
 }
+
+#related-articles img {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+#more-in-space-top div {
+  float: left;
+}
+.image-slot{
+  width: 25%;
+  float: left;
+  padding: 5px;
+}
+.space-top {
+  position: relative;
+  bottom: 15px;
+}
+
+#more-in-space-top div h5 {
+  padding-right: 20px;
+  
+}
+
+.more-in-space-bottom div {
+  float: left;
+}
+
+#most-popular {
+  clear: both;
+}
+
+.bottoms-image-slot {
+  position: relative;
+  bottom: 267px;
+}
+
+#most-popular {
+  position: relative;
+  bottom: 848px;
+  left: 1000px;
+  border-top: 1px solid black;
+  padding-top:  42px;
+
+}
+
+#border-line {
+  width: 77%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 30px;
+}
+
+#more-in-space-top h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+#more-in-space-top h4:hover {
+  text-decoration: underline;
+}
+
+#most-popular h5 {
+  border-top: 1px solid black;
+}
