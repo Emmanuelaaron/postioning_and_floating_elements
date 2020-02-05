@@ -61,7 +61,6 @@ article {
   font-size: 1.25rem;
   line-height: 1.875rem;
   padding: 25px 0;
-  clear: both;
 }
 
 h4 {
@@ -253,11 +252,6 @@ strong {
   left: 2%;
 }
 
-.main-content-lower-paragraphs {
-  position: relative;
-  bottom: 300px;
-}
-
 iframe {
   width: 100%;
   height: 420px;
@@ -283,14 +277,6 @@ iframe {
 
 .footer-signup-right a:hover {
   text-decoration: underline;
-}
-
-#related-articles {
-  width: 80%;
-  margin: 10px auto;
-  position: relative;
-  bottom: 300px;
-  clear: both;
 }
 
 #article-legend {
@@ -404,8 +390,6 @@ h3 {
 .footer-signup {
   width: 80%;
   margin: 0 auto;
-  position: relative;
-  bottom: 280px;
 }
 
 .footer-signup hr {
@@ -465,21 +449,26 @@ input[type="submit"] {
   line-height: 16px;
 }
 
+#related-articles {
+  width: 80%;
+  margin: 10px auto;
+}
+
 #related-articles img {
   width: 100%;
   padding-bottom: 20px;
 }
 
-#more-in-space-bottom {
-  clear: both;
-  width: 70%;
-}
-
 #more-in-space-top {
   padding-top: 20px;
   float: left;
-  width: 70%;
+  width: 75%;
   border-top: 1px solid black;
+}
+
+#more-in-space-bottom {
+  float: left;
+  width: 75%;
 }
 
 .image-slot {
@@ -490,6 +479,8 @@ input[type="submit"] {
 
 #most-popular h5 {
   border-top: 1px solid rgb(219, 218, 218);
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #more-in-space-top div h5 {
@@ -497,26 +488,18 @@ input[type="submit"] {
 }
 
 #most-popular {
-  float: right; 
-  width: 20vw;
-  position: relative;
-  bottom: 37.2vw;
+  width: 25%;
   border-top: 1px solid black;
   padding-top: 1vw;
   font-style: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 16px;
-  margin-right: 10vw;
+  overflow: hidden;
 }
 
 #most-popular h4 {
   padding-bottom: 20px;
-
 }
 
-#most-popular h5 {
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
 #more-in-space-top h4 {
   font-size: 20px;
   margin-bottom: 5px;
