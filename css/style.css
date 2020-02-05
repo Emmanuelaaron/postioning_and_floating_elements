@@ -462,13 +462,22 @@ input[type="submit"] {
 #more-in-space-top {
   padding-top: 20px;
   float: left;
-  width: 75%;
+  width: 70%;
   border-top: 1px solid black;
 }
 
 #more-in-space-bottom {
   float: left;
-  width: 75%;
+  width: 70%;
+  margin-right: 40px;
+}
+
+#editors-picks {
+  float: left;
+  width: 70%;
+  border-top: 1px solid black;
+  margin-top: 25px;
+  padding-top: 10px;
 }
 
 .image-slot {
@@ -488,7 +497,7 @@ input[type="submit"] {
 }
 
 #most-popular {
-  width: 25%;
+  width: 24%;
   border-top: 1px solid black;
   padding-top: 1vw;
   font-style: nyt-franklin, helvetica, arial, sans-serif;
