@@ -518,3 +518,59 @@ input[type="submit"] {
 #more-in-space-top h4:hover {
   text-decoration: underline;
 }
+
+#footer-space {
+  border-bottom: 1px double #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+  height: 1px;
+  margin: 10px auto;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}
+
+#footer-header {
+  overflow: hidden;
+}
+
+#new-york-times-logo-footer {
+  float: left;
+  width: 18%;
+}
+
+#footer-go-to {
+  float: right;
+}
+
+#footer-links {
+  /* overflow: hidden; */
+  /* margin: 0 auto; */
+}
+
+.column-links {
+  float: left;
+  width: 16%;
+}
+
+#subscribe-footer h6 {
+
+}
+
+#subscribe-footer li {
+  clear: both;
+}
+
+#subscribe-footer svg {
+  float: left;
+}
+
+#subscribe-footer p {
+  float: right;
+}
+
+#subscribe-footer a {
+  /* width: 100%; */
+}
