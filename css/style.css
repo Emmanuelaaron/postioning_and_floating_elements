@@ -546,8 +546,28 @@ footer {
 }
 
 #footer-links {
-  /* overflow: hidden; */
-  /* margin: 0 auto; */
+  border-bottom: 1px solid #e2e2e2;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+#footer-links a {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+}
+
+#footer-links a:hover {
+  text-decoration: underline;
+}
+
+#footer-links h6 {
+  text-transform: capitalize;
+  font-weight: 700;
+  height: 25px;
+  width: 150px;
 }
 
 .column-links {
@@ -555,22 +575,32 @@ footer {
   width: 16%;
 }
 
-#subscribe-footer h6 {
-
+#subscribe-footer {
+  border-left: 1px solid #e2e2e2;
+  padding-left: 15px;
+  overflow: hidden;
 }
 
 #subscribe-footer li {
-  clear: both;
+  /* clear: both; */
 }
 
 #subscribe-footer svg {
-  float: left;
+  /* float: left; */
 }
 
 #subscribe-footer p {
-  float: right;
+  /* float: right; */
 }
 
 #subscribe-footer a {
   /* width: 100%; */
+}
+
+#bottom-icons-links {
+  /* clear: both; */
+}
+
+#brand-footer {
+  clear: both;
 }
