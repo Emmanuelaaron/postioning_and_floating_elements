@@ -147,38 +147,6 @@ h4 {
   width: 20%;
 }
 
-.fa-facebook,
-.fa-twitter {
-  background: #ccc;
-  color: rgb(22, 21, 21);
-  width: 30px;
-  height: 27px;
-  text-align: center;
-  border-radius: 50%;
-  padding-top: 14px;
-}
-
-.facebook {
-  height: 67px;
-  width: 20px;
-  float: left;
-  padding-right: 20px;
-}
-
-.twitter {
-  height: 67px;
-  width: 20px;
-  float: left;
-  padding-right: 20px;
-}
-
-.email {
-  height: 67px;
-  width: 20px;
-  float: left;
-  padding-right: 20px;
-}
-
 p {
   padding: 10px 0;
   clear: both;
@@ -295,12 +263,31 @@ iframe {
   color: rgb(102, 102, 102);
 }
 
-.social-button {
+.facebook {
   position: relative;
   bottom: 4px;
   top: -5px;
   left: 3px;
 }
+
+.twitter {
+  position: relative;
+  bottom: 6px;
+  left: 2px;
+}
+
+.email {
+  position: relative;
+  bottom: 9px;
+  left: 0;
+}
+
+.forward {
+  position: relative;
+  bottom: 7px;
+  left: 0;
+}
+
 
 .social-button-facebook {
   width: 7px;
@@ -323,12 +310,13 @@ li {
   width: 50%;
 }
 
-.bottom-right {
+.social-icons {
   float: right;
 }
 
 ul li {
   float: left;
+  margin-right: 2px;
 }
 
 .bottom-left button {
