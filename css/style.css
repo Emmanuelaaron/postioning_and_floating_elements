@@ -15,7 +15,6 @@ a {
 
 header {
   background-color: white;
-  overflow: hidden;
 }
 
 nav {
@@ -25,6 +24,11 @@ nav {
 .menu-icon,
 .search-icon {
   width: 40px;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
 }
 
 .left-nav {
