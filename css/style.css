@@ -171,6 +171,10 @@ article {
   clear: both;
 }
 
+.column-links div a {
+  margin-right: 10px;
+}
+
 #create-account-log-in {
   text-align: center;
   font-size: 0.9rem;
@@ -224,7 +228,14 @@ article {
   padding: 10px 0;
 }
 
-#bold-table {
+#bold-table,
+#bold-table1,
+#bold-table2,
+#bold-table3,
+#bold-table4,
+#bold-table5,
+#bold-table6,
+#bold-table7 {
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -614,6 +625,7 @@ footer {
   border-bottom: 1px solid #e2e2e2;
   padding-bottom: 5px;
   overflow: hidden;
+  font-family: NYTFontFranklin, arial, helvetica, sans-serif;
 }
 
 #footer-links a {
@@ -648,4 +660,22 @@ footer {
 #brand-footer {
   clear: both;
   margin: 20px;
+}
+
+.column-links .iconic {
+  display: flex;
+  font-weight: bold;
+}
+
+.subscribe-icon {
+  width: 15px;
+}
+
+.lower-bottom {
+  border-top: 1px solid #e2e2e2;
+  padding-top: 15px;
+}
+
+.lower {
+  margin-top: 10px;
 }
