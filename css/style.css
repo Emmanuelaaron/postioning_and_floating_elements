@@ -15,7 +15,6 @@
 
 body {
   background-color: #f7f7f7;
-  font-size: 12px;
 }
 
 a {
@@ -25,13 +24,14 @@ a {
 
 header {
   position: fixed;
-  width: 100%;
+  width: 100vw;
+  z-index: 1;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-between;
-  padding: 5px 20px;
+  padding: 1vh 1vw;
   border-bottom: 1px solid rgb(204, 204, 204);
   background-color: white;
 }
@@ -67,22 +67,27 @@ article {
   line-height: 1.875rem;
 }
 
-h4 {
+#article-category {
   margin-top: 0;
+  font-family: NYTFontFranklin, arial, helvetica, sans-serif;
+  font-size: 14.25px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 #article_title {
-  max-width: 60%;
+  max-width: 50%;
   margin: 0 auto;
   font-family: NYTFontCheltenham, georgia, 'times new roman', times, serif;
   font-weight: 700;
   font-style: italic;
-  font-size: 45px;
-  line-height: 60px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  padding: 25px;
 }
 
 .nyt-media-80 {
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -110,7 +115,7 @@ h4 {
 
 .main-content {
   clear: both;
-  width: 55%;
+  width: 45%;
   padding: 20px 0;
   margin: 0 auto;
 }
@@ -159,74 +164,132 @@ h4 {
   color: #333;
 }
 
-#create-account-log-in {
-  text-align: center;
-}
-
 .line-separator {
   border-bottom: 1px solid rgb(204, 204, 204);
   width: 72px;
-  margin: 0 auto 0;
+  margin: 20px auto;
+  clear: both;
 }
 
-#table {
+#create-account-log-in {
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+}
+
+#create-account-log-in a {
+  color: rgb(50, 104, 145);
+}
+
+.bold-article {
+  font-weight: 700;
+}
+
+#editors-picks {
+  float: right;
+  width: 210px;
+  margin-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.e-p-article-box {
+
+}
+
+.editors-picks-img {
+  width: 10%;
+}
+
+.editors-picks-titles {
+
+}
+
+#table-title {
+  font-size: 1.45rem;
+  line-height: 1.6rem;
+  font-weight: 700;
+  font-family: NYTFontCheltenham, georgia, times new roman, times, serif;
+}
+
+#table-description {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  font-weight: 400;
+  font-family: NYTFontCheltenham, georgia, times new roman, times, serif;
+  color: #666;
+  padding: 10px 0;
+}
+
+#bold-table {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#inflation-img-container {
+  display: grid;
+  grid-template-columns: 2% 24% 24% 24% 24% 2%;
+  grid-template-rows: 1% 12% 12% 12% 12% 1%;
+}
+
+#table-image {
   width: 100%;
-}
-
-#the-universe,
-#still-not-enough {
-  left: 2.0436%;
-}
-
-#not-enough-time,
-#inflation {
-  left: 7%;
-}
-
-#distant-coffee,
-#fluctuation {
-  left: 11%;
-}
-
-#coffee-everywhere,
-#expansion {
-  left: 15%;
+  grid-column-start: 2;
+  grid-column-end: span col6-start;
+  grid-row-start: 2;
+  grid-row-end: span 4;
 }
 
 .table-items {
-  width: 250px;
-  float: left;
-  position: relative;
   font-family: NYTFontFranklin, arial, helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   font-weight: 300;
   color: #000;
-  margin-right: 10px;
 }
 
-.bottoms {
-  bottom: 550px;
+#inflation-img-container .top {
+  grid-row-start: 3;
+  grid-row-end: span 1;
+  justify-content: stretch;
 }
 
-.tops {
-  bottom: 330px;
+#inflation-img-container .bottom {
+  grid-row-start: 5;
+  grid-row-end: span 1;
 }
 
-#story-footer {
-  background: #000;
-  margin: 0 0 13px;
+#inflation-img-container .first {
+  grid-column-start: 2;
+  grid-column-end: span 1;
 }
 
-#larry {
-  position: relative;
-  bottom: 320px;
-  font-size: 0.875rem;
-  font-weight: 500;
-  font-style: normal;
-  font-family: NYTFontFranklin, arial, helvetica, sans-serif;
-  left: 2%;
+#inflation-img-container .second {
+  grid-column-start: 3;
+  grid-column-end: span 1;
 }
+
+#inflation-img-container .third {
+  grid-column-start: 4;
+  grid-column-end: span 1;
+}
+
+#inflation-img-container .fourth {
+  grid-column-start: 5;
+  grid-column-end: span 1;
+}
+
+/*
+#the-theory-of-inflation-table {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-template-rows: 12% 12% 12% 12%;
+  grid-column-gap: 1%;
+  grid-row-gap: 55%;
+} */
 
 iframe {
   width: 100%;
@@ -247,8 +310,9 @@ iframe {
   max-width: 600px;
 }
 
-.footer-signup-right a {
+.sign-up-link {
   color: rgb(50, 104, 145);
+  font-family: inherit;
   font-size: 10px;
   font-style: normal;
   font-weight: 400;
@@ -256,7 +320,7 @@ iframe {
   padding: 0 5px;
 }
 
-.footer-signup-right a:hover {
+.sign-up-link:hover {
   text-decoration: underline;
 }
 
@@ -527,6 +591,7 @@ input[type="submit"] {
 }
 
 footer {
+  clear: both;
   width: 80%;
   margin: 0 auto;
 }
