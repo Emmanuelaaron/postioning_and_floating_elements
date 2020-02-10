@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'NYTFontCheltenham';
-  src: url("/fonts/Cheltenham.woff2"), url("/fonts/Cheltenham.woff");
+  src: url("./fonts/Cheltenham.woff2"), url("/fonts/Cheltenham.woff");
 }
 
 @font-face {
   font-family: 'NYTFontImperial';
-  src: url("/fonts/imperial.woff2"), url("/fonts/imperial.woff");
+  src: url("./fonts/imperial.woff2"), url("/fonts/imperial.woff");
 }
 
 @font-face {
   font-family: 'NYTFontFranklin';
-  src: url("/fonts/franklin.woff2"), url("/fonts/franklin.woff");
+  src: url("./fonts/franklin.woff2"), url("/fonts/franklin.woff");
 }
 
 body {
