@@ -89,6 +89,7 @@ article {
 
 .nyt-media-80 {
   width: 70%;
+  max-width: 950px;
   margin: 0 auto;
 }
 
@@ -118,6 +119,7 @@ article {
 .main-content {
   clear: both;
   width: 45%;
+  max-width: 600px;
   padding: 20px 0;
   margin: 0 auto;
 }
@@ -245,16 +247,11 @@ article {
   padding: 10px 0;
 }
 
-.bold-table {
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 #inflation-img-container {
   display: grid;
   grid-template-columns: 1% 24% 24% 24% 24% 1%;
   grid-template-rows: 1% 15% 9% 18% 7% 0%;
-  grid-row-gap: 2.5vw;
+  grid-row-gap: 2vw;
 }
 
 #table-image {
@@ -265,10 +262,18 @@ article {
   grid-row-end: span row6-end;
 }
 
+.bold-table {
+  font-weight: 800;
+  line-height: 0.8rem;
+  text-transform: uppercase;
+}
+
 .table-items {
   font-family: NYTFontFranklin, arial, helvetica, sans-serif;
-  font-size: 1vw;
-  line-height: 1vw;
+  font-size: 0.8rem;
+  line-height: 1rem;
+  letter-spacing: 0.02rem;
+  font-weight: 20;
   color: #000;
 }
 
@@ -735,6 +740,12 @@ footer {
   }
 }
 
-@media only screen and (min-width: 1600px) {
-  
+@media only screen and (max-width: 1300px) {
+  .table-items {
+    font-size: 0.5rem;
+    line-height: 0.6rem;
+    letter-spacing: 0.02rem;
+    font-weight: 20;
+    color: #000;
+  }
 }
