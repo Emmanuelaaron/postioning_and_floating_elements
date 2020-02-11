@@ -1,4 +1,4 @@
-# HTML forms
+# Positioning and Floating Elements
 
 > This HTML document is a clone of a New York Times [article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0) 
 ![screenshot](./img/Screenshot.newyork.PNG)
