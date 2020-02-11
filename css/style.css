@@ -44,6 +44,10 @@ header {
   display: flex;
 }
 
+.right-nav button {
+  color: white;
+}
+
 .menu-icon,
 .search-icon {
   width: 35px;
@@ -505,6 +509,7 @@ h3 {
 .footer-signup {
   width: 85%;
   margin: 0 auto;
+  height: 150px;
 }
 
 .footer-signup hr {
@@ -516,11 +521,10 @@ h3 {
 .footer-signup-right {
   float: right;
   width: 45%;
-  position: relative;
-  bottom: 100px;
 }
 
 .footer-signup-left {
+  float: left;
   width: 45%;
 }
 
@@ -567,6 +571,7 @@ input[type="submit"] {
 }
 
 #related-articles {
+  clear: both;
   width: 85%;
   margin: 10px auto;
 }
@@ -604,7 +609,6 @@ input[type="submit"] {
 }
 
 #more-in-space-top h5 {
-  /* display: block; */
   line-height: 1rem;
 }
 
