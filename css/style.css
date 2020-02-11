@@ -20,31 +20,48 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(19, 18, 18);
+  color: #000;
 }
 
 header {
   position: fixed;
   width: 100vw;
   z-index: 1;
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  padding: 1vh 1vw;
   border-bottom: 1px solid rgb(204, 204, 204);
   background-color: white;
 }
 
+.nav-bar {
+  max-width: 1635px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+}
+
 .left-nav {
   display: flex;
-  align-items: center;
 }
 
 .menu-icon,
 .search-icon {
-  width: 40px;
+  width: 35px;
+}
+
+#article-category {
+  margin-top: 0;
+  font-family: NYTFontFranklin, arial, helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 1000;
+  line-height: 1.5rem;
+  letter-spacing: 0.01rem;
+  top: 20px;
+}
+
+#article-category:hover {
+  text-decoration: underline;
 }
 
 #new-york-times-logo {
@@ -55,40 +72,41 @@ header {
 #log-in {
   background-color: #567b95;
   border: 1px solid #326891;
-  color: #fff;
   font-size: 11px;
   height: 35px;
   font-weight: 700;
   border-radius: 4px;
 }
 
-article {
-  padding-top: 50px;
-  font-size: 1.25rem;
-  line-height: 1.875rem;
+#subscribe-now:hover,
+#log-in:hover {
+  border: 1px solid #326891;
+  background-color: #326891;
 }
 
-#article-category {
-  margin-top: 0;
-  font-family: NYTFontFranklin, arial, helvetica, sans-serif;
-  font-size: 14.25px;
-  font-weight: 700;
-  text-transform: uppercase;
+#subscribe-now a,
+#log-in a {
+  color: #fff;
+}
+
+article {
+  padding-top: 50px;
 }
 
 #article_title {
-  max-width: 50%;
+  width: 40vw;
+  max-width: 600px;
   margin: 0 auto;
   font-family: NYTFontCheltenham, georgia, 'times new roman', times, serif;
-  font-weight: 700;
+  font-weight: 800;
   font-style: italic;
-  font-size: 2.5rem;
-  line-height: 3rem;
+  font-size: 2rem;
+  line-height: 2.5rem;
   padding: 25px;
 }
 
 .nyt-media-80 {
-  width: 70%;
+  width: 90%;
   max-width: 950px;
   margin: 0 auto;
 }
