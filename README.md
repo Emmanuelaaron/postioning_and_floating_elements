@@ -5,9 +5,10 @@
 
 ## Built With
 
-- HTML,
-- CSS,
-- Flexbox,
+- HTML
+- CSS
+- CSS Flexbox
+- CSS Grid
 - Float
 
 ## Live Demo

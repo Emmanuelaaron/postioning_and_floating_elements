@@ -280,13 +280,13 @@ article {
 #inflation-img-container .top {
   grid-row-start: 3;
   grid-row-end: span 1;
-  padding-top: 1vw;
+  padding-top: 6vw;
 }
 
 #inflation-img-container .bottom {
   grid-row-start: 5;
   grid-row-end: span 1;
-  padding-top: 4vw;
+  padding-top: 7vw;
 }
 
 #inflation-img-container .first {
@@ -592,9 +592,9 @@ input[type="submit"] {
 
 #most-popular h5 {
   border-top: 1px solid rgb(219, 218, 218);
-  font-size: 1.1vw;
+  font-size: 1.1rem;
   font-weight: 600;
-  line-height: 1.3vw;
+  line-height: 1.3rem;
   padding-bottom: 1.1vw;
   padding-top: 1vw;
 }
@@ -747,5 +747,19 @@ footer {
     letter-spacing: 0.02rem;
     font-weight: 20;
     color: #000;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #inflation-img-container .top {
+    grid-row-start: 3;
+    grid-row-end: span 1;
+    padding-top: 80px;
+  }
+
+  #inflation-img-container .bottom {
+    grid-row-start: 5;
+    grid-row-end: span 1;
+    padding-top: 80px;
   }
 }
