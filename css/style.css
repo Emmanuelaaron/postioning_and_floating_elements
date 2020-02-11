@@ -68,6 +68,10 @@ header {
   height: 35px;
 }
 
+.column-links div a {
+  margin-right: 10px;
+}
+
 #subscribe-now,
 #log-in {
   background-color: #567b95;
@@ -215,6 +219,7 @@ article {
 .editors-picks-img {
   width: 75px;
   padding: 5px;
+  height: 75px;
 }
 
 .editors-picks-titles {
@@ -228,10 +233,6 @@ article {
   border-bottom: 1px solid rgb(204, 204, 204);
   width: 72px;
   margin: 15px auto;
-}
-
-.column-links div a {
-  margin-right: 10px;
 }
 
 #create-account-log-in {
@@ -306,7 +307,7 @@ article {
   grid-row-start: 5;
   grid-row-end: span 1;
   position: relative;
-  top: 100px;
+  top: 140px;
 }
 
 #inflation-img-container .first {
@@ -612,6 +613,7 @@ input[type="submit"] {
   width: 100%;
   margin-top: 1vw;
   padding-top: 0.5vw;
+  border-top: 1px solid black;
 }
 
 #most-popular h5 {
@@ -674,6 +676,8 @@ footer {
 
 #footer-go-to {
   float: right;
+  font-size: 10px;
+  color: #567b95;
 }
 
 #footer-links {
@@ -723,6 +727,10 @@ footer {
   font-family: NYTFontFranklin, arial, helvetica, sans-serif;
   font-size: 0.7rem;
   padding: 0 5px;
+}
+
+.brand-links:hover {
+  text-decoration: underline;
 }
 
 .column-links .iconic {
@@ -778,7 +786,7 @@ footer {
 
   #inflation-img-container .bottom {
     position: relative;
-    top: 50px;
+    top: 120px;
   }
 
   #most-popular {
@@ -803,6 +811,24 @@ footer {
 
   #inflation-img-container .bottom {
     position: relative;
-    top: 70px;
+    top: 130px;
   }
+}
+
+#footer-bottom {
+  display: flex;
+  justify-content: flex-end;
+  border-top: 1px solid black;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  width: 100vw;
+}
+
+#expand {
+  margin-left: 25vw;
+  margin-right: 0;
+  font-weight: bold;
 }
