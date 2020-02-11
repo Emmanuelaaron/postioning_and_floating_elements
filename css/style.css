@@ -689,6 +689,7 @@ footer {
   padding-bottom: 5px;
   overflow: hidden;
   font-family: NYTFontFranklin, arial, helvetica, sans-serif;
+  margin-top: 20px;
 }
 
 #footer-links a {
